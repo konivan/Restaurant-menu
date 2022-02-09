@@ -76,7 +76,7 @@ const menu = [
     title: "Nachos with seafood",
     category: "snacks",
     price: 795,
-    img: "./img/item-9.jpeg",
+    img: "./img/item-10.jpeg",
     desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. `,
   },
 ];
@@ -84,7 +84,11 @@ const menu = [
 const sectionCenter = document.querySelector('.section-center');
 
 window.addEventListener('DOMContentLoaded', function(){
-  let displayMenu = menu.map(function(item){
+  displayMenuItems(menu);
+});
+
+function displayMenuItems(menuItems) {
+  let displayMenu = menuItems.map(function(item){
 
     return `<article class="menu-item">
     <img src=${item.img} class="photo" alt=${item.title}>
@@ -99,4 +103,4 @@ window.addEventListener('DOMContentLoaded', function(){
   });
   displayMenu = displayMenu.join("");
   sectionCenter.innerHTML = displayMenu;
-});
+};
