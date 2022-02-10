@@ -79,6 +79,38 @@ const menu = [
     img: "./img/item-10.jpeg",
     desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. `,
   },
+  {
+    id: 11,
+    title: "Strachatella and berries",
+    category: "deserts",
+    price: 250,
+    img: "./img/item-11.jpeg",
+    desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. `,
+  },
+  {
+    id: 12,
+    title: "Oreo Cheesecake",
+    category: "deserts",
+    price: 250,
+    img: "./img/item-12.jpeg",
+    desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. `,
+  },
+  {
+    id: 13,
+    title: "Lime and meringue",
+    category: "deserts",
+    price: 250,
+    img: "./img/item-13.jpeg",
+    desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. `,
+  },
+  {
+    id: 14,
+    title: "Strawberries Cheesecake",
+    category: "deserts",
+    price: 250,
+    img: "./img/item-14.jpeg",
+    desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. `,
+  },
 ];
 
 const sectionCenter = document.querySelector('.section-center');
